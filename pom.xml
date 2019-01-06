@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wadacoder</groupId>
 	<artifactId>splits-happen-1</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>Archetype - splits-happen</name>
 	<url>http://maven.apache.org</url>
 
@@ -12,6 +12,18 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>4.2.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>4.2.0</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
