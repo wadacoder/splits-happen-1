@@ -1,4 +1,4 @@
-Steps to compile, package and execute the splits-happen-1 solution
+# Steps to compile, package and execute the splits-happen-1 solution
 
 ## Prerequisites to package and execute
 * Java is installed
