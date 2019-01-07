@@ -6,7 +6,8 @@
 * Internet connection to resolve maven dependencies 
 
 ## Download
-`git clone <your repo url>`
+* `git clone <your repo url>`
+* Eg: `https://github.com/<your profile>/splits-happen-1.git` ; enter credentials as prompted
 
 ## Compile, test and package
 * Navigate to the folder where the `pom.xml` of the cloned repo is located
