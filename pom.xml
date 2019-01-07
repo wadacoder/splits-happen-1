@@ -39,7 +39,6 @@
 							<mainClass>scorer.BowlingScoreReporter</mainClass>
 						</manifest>
 					</archive>
-					<outputDirectory>RELEASES</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
