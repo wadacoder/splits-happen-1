@@ -12,7 +12,7 @@ public class BowlingScoreReporter {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		if (args != null && args.length == 1 && !args[0].trim().isEmpty()) {
+		if (args != null && args.length == 1 && !args[0].trim().isEmpty() && !args[0].trim().equals("-help")) {
 			Game game = new Game(args[0]);
 			System.out.println("\tGame recorded with rolls as: " + args[0]);
 			System.out.println("\tTotal score: " + game.getScore());
